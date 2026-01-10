@@ -1,0 +1,11 @@
+/* Tailwind의 기본 기능을 불러옵니다 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 기존에 index.html <style> 태그에 있던 내용을 여기 넣으세요 */
+body { font-family: 'Inter', sans-serif; }
+.bg-medical-blue { background-color: #003366; }
+.text-medical-blue { color: #003366; }
+.bg-gold { background-color: #C5A059; }
+.text-gold { color: #C5A059; }
