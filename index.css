@@ -1,0 +1,20 @@
+/* Global Styles for Medical AI Singapore App */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Safe area for mobile devices */
+.safe-area-inset {
+  padding-bottom: env(safe-area-inset-bottom);
+}
