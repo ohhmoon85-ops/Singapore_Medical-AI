@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.bg-medical-blue {
+  background-color: #003366;
+}
+
+.text-medical-blue {
+  color: #003366;
+}
+
+.bg-gold {
+  background-color: #C5A059;
+}
+
+.text-gold {
+  color: #C5A059;
+}
+
+.safe-area-inset {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* 스크롤 부드럽게 */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 모바일 최적화 */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
